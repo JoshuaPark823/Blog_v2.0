@@ -2,7 +2,7 @@ header {
   width: 100%;
   z-index: 150;
   background-color: $header-background-color;
-  @include transition(box-shadow 0.3s ease);
+//   @include transition(box-shadow 0.3s ease);
 
   [theme=dark] & {
     background-color: $header-background-color-dark;
@@ -22,9 +22,9 @@ header {
     padding-left: .25rem;
   }
 
-  &:hover {
-    @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
-  }
+//   &:hover {
+//     @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
+//   }
 }
 
 .header-wrapper {
@@ -38,7 +38,7 @@ header {
 
 .header-title {
   font-family: var(--header-title-font-family);
-  font-weight: 600;
+  font-weight: 500;
   margin-right: .5rem;
   min-width: 10%;
   overflow: hidden;
@@ -385,7 +385,7 @@ header {
           text-overflow: ellipsis;
           white-space: nowrap;
           font-size: 1rem;
-          font-weight: 600;
+          font-weight: 500;
           max-width: 75%;
         }
 
@@ -442,7 +442,7 @@ header {
       text-align: center;
 
       .search-query {
-        font-weight: 600;
+        font-weight: 500;
 
         [theme=dark] & {
           color: #ddd;

@@ -10,11 +10,11 @@
     @include overflow-wrap(break-word);
     @include transition(all ease-out 0.3s);
 
-    &:active,
-    &:focus,
-    &:hover {
-      @include transform(scale(1.2));
-    }
+    // &:active,
+    // &:focus,
+    // &:hover {
+    //   @include transform(scale(1.2));
+    // }
 
     sup {
       color: $global-font-secondary-color;

@@ -5,7 +5,7 @@
   margin: 0 auto;
 
   [data-header-desktop] & {
-    padding-top: calc(var(--header-height) + 3rem);
+    padding-top: calc(var(--header-height) + 1rem);
   }
 
   [data-header-desktop=normal] & {

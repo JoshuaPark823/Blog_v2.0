@@ -75,7 +75,7 @@
 }
 
 .markdown-body .pl-sr .pl-cce {
-  font-weight: 600;
+  font-weight: 500;
   color: #22863a;
 }
 
@@ -86,7 +86,7 @@
 .markdown-body .pl-mh,
 .markdown-body .pl-mh .pl-en,
 .markdown-body .pl-ms {
-  font-weight: 600;
+  font-weight: 500;
   color: #005cc5;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .markdown-body .pl-mb {
-  font-weight: 600;
+  font-weight: 500;
   color: #24292e;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .markdown-body .pl-mdr {
-  font-weight: 600;
+  font-weight: 500;
   color: #6f42c1;
 }
 
@@ -225,7 +225,7 @@
 }
 
 .markdown-body strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body hr {
@@ -270,32 +270,32 @@
 
 .markdown-body h1 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body h2 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body h3 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body h5 {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body h6 {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body p {
@@ -464,7 +464,7 @@
 .markdown-body h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.25;
 }
 
@@ -556,7 +556,7 @@
   margin-top: 16px;
   font-size: 1em;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body dl dd {
@@ -571,7 +571,7 @@
 }
 
 .markdown-body table th {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .markdown-body table th,
@@ -1200,7 +1200,7 @@
   height: 12px;
   padding: 0 9px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 6px;
   color: #444d56;
   text-decoration: none;

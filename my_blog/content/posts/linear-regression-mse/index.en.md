@@ -9,8 +9,10 @@ tags: [
     'Regression'
 ]
 resources:
-- name: "featured-image"
+- name: "featured-image-preview"
   src: "banner.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Suppose you're trying to model the relationship between the size of a house in square feet and its market value. Maybe your friend
+came to you knowing only the square footage of their home, asking for an accurate estimate of what the property might be worth. Or maybe
+they're looking to renovate the home for some extra selling value and are wondering how much more they would receive per square foot.

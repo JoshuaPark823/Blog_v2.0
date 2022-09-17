@@ -44,6 +44,7 @@ body {
   color: $global-font-color;
   @include overflow-wrap(break-word);
   scrollbar-color: auto;
+  -webkit-font-smoothing: antialiased;
 
   &[theme=dark] {
     color: $global-font-color-dark;
