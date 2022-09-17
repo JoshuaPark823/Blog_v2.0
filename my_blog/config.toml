@@ -4,7 +4,7 @@ baseURL = "https://joshpark.ca"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "Josh Park"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -32,8 +32,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Joshua Park"
+  email = "joshuapark823@gmail.com"
   link = ""
 
 # Menu config
@@ -57,14 +57,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Tags"
     url = "tags/"
     title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "categories/"
-    title = ""
+#   [[menu.main]]
+#     weight = 3
+#     identifier = "categories"
+#     pre = ""
+#     post = ""
+#     name = "Categories"
+#     url = "categories/"
+#     title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -76,10 +76,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   fingerprint = ""
   #  date format
   dateFormat = "2006-01-02"
+#   dateFormat = "29 Jun 2021"
   # website title for Open Graph and Twitter Cards
-  title = "My cool site"
+  title = "Josh Park"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "Portfolio of blog posts, projects, and random tech tidbits"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -94,7 +95,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "Josh Park"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -106,19 +107,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = ''
+    custom = 'All rights reserved'
     #  whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
     author = true
     # Site creation time
-    since = 2019
+    # since = 2019
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    # license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   #  Section (all posts) page config
   [params.section]
@@ -181,7 +182,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = true
+      enable = false
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
@@ -191,9 +192,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # subtitle shown in home page (HTML format is supported)
       subtitle = "This is My New Hugo Site"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
-      social = true
+      social = false
       #  disclaimer (HTML format is supported)
       disclaimer = ""
     # Home page posts
@@ -300,7 +301,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  whether to show the full text content in RSS
     rssFullText = false
     #  Table of the contents config
@@ -308,7 +309,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # whether to enable the table of the contents
       enable = true
       #  whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     #  KaTeX mathematical formulas
@@ -348,7 +349,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       fullscreen = true
     #  social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false

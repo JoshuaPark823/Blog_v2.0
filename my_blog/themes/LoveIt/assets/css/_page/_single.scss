@@ -4,7 +4,7 @@
   .single-title {
     margin: 2rem 0 .5rem;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 140%;
   }
 
@@ -88,7 +88,7 @@
     h4,
     h5,
     h6 {
-      font-weight: bold;
+      font-weight: 600;
       margin: 1.2rem 0;
 
       [theme=dark] & {
@@ -121,7 +121,7 @@
     }
 
     b, strong {
-      font-weight: bold;
+      font-weight: 600;
 
       [theme=dark] & {
         color: #ddd;
@@ -327,7 +327,7 @@
     padding: .375rem;
     font-size: .875rem;
     font-family: var(--code-font-family);
-    font-weight: bold;
+    font-weight: 600;
     word-break: break-all;
     white-space: pre-wrap;
   }

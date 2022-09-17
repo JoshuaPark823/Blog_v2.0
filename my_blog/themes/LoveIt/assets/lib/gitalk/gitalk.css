@@ -75,7 +75,7 @@
 }
 
 .markdown-body .pl-sr .pl-cce {
-  font-weight: bold;
+  font-weight: 600;
   color: #22863a;
 }
 
@@ -86,7 +86,7 @@
 .markdown-body .pl-mh,
 .markdown-body .pl-mh .pl-en,
 .markdown-body .pl-ms {
-  font-weight: bold;
+  font-weight: 600;
   color: #005cc5;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .markdown-body .pl-mb {
-  font-weight: bold;
+  font-weight: 600;
   color: #24292e;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .markdown-body .pl-mdr {
-  font-weight: bold;
+  font-weight: 600;
   color: #6f42c1;
 }
 
