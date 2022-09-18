@@ -10,7 +10,7 @@ resources:
   src: "banner.png"
 ---
 
-Oxford Languages defines the term retrospective to mean "looking back on or dealing with past events or situations" but what does that really
+The term retrospective is defined as "looking back on or dealing with past events or situations" but what does that really
 look like in practice? How does one effectively "deal with past events or situations"?
 
 Coming from a software development perspective with a background in Agile methodologies my mind immediately jumps to the notorious Sprint Retrospective.
@@ -96,3 +96,6 @@ you'll be passionate about, but it's also worthwhile to build something for the 
 
 We all have projects that we've started and left unfinished. And that's okay. But the experience of bringing a challenging project over the finish line
 is one that we should all strive to have atleast once. On to the next :)
+
+#### Image Credits
+- Banner: https://www.comakeit.com/blog/sprint-retrospective-become-more-effective/

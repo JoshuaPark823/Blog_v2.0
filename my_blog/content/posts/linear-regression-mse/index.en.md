@@ -9,7 +9,7 @@ tags: [
 ]
 resources:
 - name: "featured-image-preview"
-  src: "banner.jpg"
+  src: "preview-img.png"
 ---
 
 Suppose you're trying to model the relationship between the size of a house in square feet and its market value. Maybe your friend
@@ -88,3 +88,7 @@ $J(w,b)$ for any point (w,b) on the plane below it. Visualizing the cost functio
 bowl shaped graph). And this "bowl shape" would be present for <strong>all</strong> univariate linear regression models.
 
 ![Convex Cost](banner.jpg "J(w,b) for all points w and b")
+
+#### Image Credits
+- Banner: https://vitalflux.com/mean-square-error-r-squared-which-one-to-use/
+- 3D J(w,b): https://www.analyticsvidhya.com/blog/2021/03/data-science-101-introduction-to-cost-function/

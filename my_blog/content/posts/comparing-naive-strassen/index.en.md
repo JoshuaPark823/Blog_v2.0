@@ -9,7 +9,7 @@ tags: [
 ]
 resources:
 - name: "featured-image-preview"
-  src: "banner.jpeg"
+  src: "matrix_3.png"
 ---
 
 #### Introduction
