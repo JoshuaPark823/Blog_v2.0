@@ -1,5 +1,5 @@
 ---
-title: "Learning From Experience: ProjectDock"
+title: "Building ProjectDock & Brief Intro on Agile Retros - A Self Retrospective"
 date: 2022-09-11
 draft: false
 tags: [

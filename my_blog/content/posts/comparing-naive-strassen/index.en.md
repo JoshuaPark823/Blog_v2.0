@@ -1,5 +1,5 @@
 ---
-title: "Exploring Naive MM & Strassen's Algorithm"
+title: "Exploring Naive Matrix Multiplication & Strassen's Algorithm"
 date: 2022-06-16
 draft: false
 tags: [
