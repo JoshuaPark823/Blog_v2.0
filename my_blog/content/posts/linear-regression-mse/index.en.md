@@ -12,9 +12,6 @@ resources:
   src: "banner.jpg"
 ---
 
-Andrew Ng covers regression really well in his new course 'Machine Learning Specialization' so I thought it would be helpful to extend
-some of his examples in a blog post.
-
 Suppose you're trying to model the relationship between the size of a house in square feet and its market value. Maybe your friend
 came to you knowing only the square footage of their home, asking for an accurate estimate of what the property might be worth. Or maybe
 they're looking to renovate the home for some extra selling value and are wondering how much more they would receive per square foot.
@@ -44,16 +41,45 @@ the purposes of univariate linear regression.
 
 $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 \tag{2}$$
 
-## Cost Function Intuition
+## Cost Function Intuition & Example
 
 Ultimately, the goal of linear regression is to minimize $J(w,b)$. Since our model $f_{w,b}(x^i)$ predicts the cost of a house
 based on the square footage `x`, ultimately our goal would be to find some parameters w and b that results in the smallest cost J.
 
-To illustrate what this means, let's observe what $f_{w,b}(x^i)$ might look like for a fixed b and variable parameter w. The graph on the left
-shows some sample data plotted against $f_{w,b}(x)$ and the graph on the right shows how the function $J(w,b)$ varies as w is changed.
+To illustrate what this means, let's observe what $f_{w,b}(x^i)$ might look like for a fixed b and variable parameter w. We'll begin by defining
+some training data below.
 
-![Cost Function 1](intuition-1.png "A small w parameter with fixed b")
-![Cost Function 1](intuition-2.png "A large w parameter with fixed b")
+```
+x_train = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0])
+y_train = np.array([300.0, 500.0, 650.0, 900, 850, 1100, 1150, 1400])
+```
+
+The definition of our cost function will be shown below. Input variables `x` and `y` are `ndarray`s representing our `x_train` and `y_train` lists.
+The inputs `w` and `b` represent the parameters of the above equation.
+
+```
+def compute_cost(x, y, w, b): 
+    m = x.shape[0] 
+    
+    cost_sum = 0 
+    for i in range(m): 
+        f_wb = w * x[i] + b   
+        cost = (f_wb - y[i]) ** 2  
+        cost_sum = cost_sum + cost  
+    total_cost = (1 / (2 * m)) * cost_sum  
+
+    return total_cost
+```
+
+Suppose we fix `b=100` and have a variable `w=100` and graph the list resulting from all $f_{w,b}(x^i)$ values.
+
+![](graph-1.png "Small w value against y_train")
+![](graph-3.png "Cost of w=100 against J(w,b)")
+
+Suppose we fix `b=100` and have a variable `w=400` and graph the list resulting from all $f_{w,b}(x^i)$ values.
+
+![](graph-2.png "Larger w value against y_train")
+![](graph-4.png "Cost of w=400 against J(w,b)")
 
 ## Visualizing $J(w,b)$ in 3D
 
