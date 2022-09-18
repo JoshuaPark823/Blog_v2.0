@@ -15,10 +15,13 @@
             {{- partial "plugin/a.html" $options -}}
         </span> -->
 
-        {{- with .Site.Params.dateFormat -}}
+        <!-- {{- with .Site.Params.dateFormat -}}
             <span class="post-publish">
                 {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "publishedOnDate" | safeHTML -}}
             </span>
+        {{- end -}} -->
+        {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
+            <time datetime="{{ . }}">{{ . }}</time>
         {{- end -}}
 
         <!-- {{- $categories := slice -}}

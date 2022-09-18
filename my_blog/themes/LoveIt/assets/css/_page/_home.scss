@@ -79,8 +79,9 @@
   .summary {
     padding-top: 1rem;
     padding-bottom: .8rem;
+    margin-bottom: 1rem;
     color: $global-font-color;
-    border-bottom: 1px dashed $global-border-color;
+    // border-bottom: 1px dashed $global-border-color;
 
     [theme=dark] & {
       color: $global-font-color-dark;
@@ -93,7 +94,8 @@
       position: relative;
       margin: 0.6rem auto;
       @include transition(transform 0.4s ease);
-      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    //   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 
       img {
         position: absolute;
