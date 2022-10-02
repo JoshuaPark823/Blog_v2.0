@@ -5,7 +5,8 @@ draft: false
 tags: [
     'Machine Learning',
     'Supervised Learning',
-    'Linear Regression'
+    'Linear Regression',
+    'Python'
 ]
 resources:
 - name: "featured-image-preview"
