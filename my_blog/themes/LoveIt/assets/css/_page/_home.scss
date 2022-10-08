@@ -94,6 +94,7 @@
       margin: 0.6rem auto;
       @include transition(transform 0.4s ease);
       border: 1px solid $global-border-color;
+      background-color: #fff;
 
       img {
         position: absolute;
