@@ -11,7 +11,7 @@ tags: [
 ]
 resources:
 - name: "featured-image-preview"
-  src: "citrus_diagram_1.png"
+  src: "citrus_diagram_cropped.png"
 ---
 
 # Introduction

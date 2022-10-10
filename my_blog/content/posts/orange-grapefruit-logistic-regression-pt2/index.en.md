@@ -11,12 +11,12 @@ tags: [
 ]
 resources:
 - name: "featured-image-preview"
-  src: "citrus_diagram_pt2.png"
+  src: "pairplot.png"
 ---
 
 # Introduction
 
-This post builds upon the information presented in the previous post: "The Math that Powers Logistic Regression (Citrus Classification)"
+This post builds on the information presented in the [previous post](./../orange-grapefruit-logistic-regression-pt1/) covering the math behind logistic regression.
 
 # Minor Data Exploration
 - graphs
