@@ -12,7 +12,7 @@ tags: [
 
 Below are some rough notes from Stanford Online's Advanced Learning Algorithms course. They're not in any particular formatting and are purely rough bullet points on important concepts. 
 
-# W1 Lectures
+# Neural Networks Intuition
 
 ## Neurons and the brain
 
@@ -86,3 +86,23 @@ Below are some rough notes from Stanford Online's Advanced Learning Algorithms c
 
 ![](./image_rec_2.png "Looking inside the network")
 ![](./image_rec_3.png "Looking inside the network (Car Example)")
+
+# Neural Network Model
+
+## Neural Network layer
+
+- Layer takes in an input vector
+- The subscript denotes the number of the activation unit. (ie. 1 == first activation unit)
+- The superscript denotes which layer it's a part of. (ie. 1 == layer 1 of the network)
+
+![](./neural_network_model_1.png "Example neural network layer")
+
+- Looking at Layer 2 now
+  - The input of layer 2 are the activations from layer 1 and we repeat the process of computing z and running it through an activation function (in this case, sigmoid).
+
+![](./neural_network_model_2.png "Example output layer")
+
+### Binary Prediction
+- If you're doing binary classification, you could add another step after that uses a threshold.
+  - Ex. With a threshold at 0.5 everything over will be considered a 1 and everything under will be considered a 0.
+
