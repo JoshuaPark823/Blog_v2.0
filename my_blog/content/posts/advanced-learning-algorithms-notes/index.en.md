@@ -106,3 +106,7 @@ Below are some rough notes from Stanford Online's Advanced Learning Algorithms c
 - If you're doing binary classification, you could add another step after that uses a threshold.
   - Ex. With a threshold at 0.5 everything over will be considered a 1 and everything under will be considered a 0.
 
+## More Complex neural networks
+
+![](./complex_network_1.png "Example network with 4 layers")
+![](./complex_network_2.png "Example network with 4 layers")
