@@ -71,3 +71,18 @@ Below are some rough notes from Stanford Online's Advanced Learning Algorithms c
 - The number of hidden layers and number of hidden units per layer can have an impact on the performance of your neural network.
 
 ![](./multiple_hidden_layers.png "Multiple hidden layers")
+
+## Image Recognition
+
+- Reading in images and representing them as the input layer vector
+  - Pixel by pixel and brightness
+
+![](./image_rec_1.png "Representing an image as an input vector")
+
+- If you trained a neural network on tons of data and examined what the hidden layers looked like this might be what you find:
+  - The first layer would be looking at a very small section. Looking for lines of different directions.
+  - The second layer looks at slightly larger areas. Looking for the presence of an eye, or a nose, etc.
+  - The third layer looks at larger areas again. Looking for the presence of a face for face recognition.
+
+![](./image_rec_2.png "Looking inside the network")
+![](./image_rec_3.png "Looking inside the network (Car Example)")
