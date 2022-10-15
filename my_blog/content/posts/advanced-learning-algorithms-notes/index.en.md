@@ -1,10 +1,11 @@
 ---
-title: "Rough Notes on Advanced Learning Algorithms"
+title: "Advanced Learning Algorithms (Notes)"
 date: 2022-10-12
 draft: true
 tags: [
     'Machine Learning',
-    'Neural Networks'
+    'Neural Networks',
+    'Notes'
 ]
 ---
 
