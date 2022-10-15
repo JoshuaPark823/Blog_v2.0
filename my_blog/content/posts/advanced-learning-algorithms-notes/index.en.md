@@ -124,3 +124,85 @@ Below are some rough notes from Stanford Online's Advanced Learning Algorithms c
 - Note: Choosing a NN architecture where you have a decreasing number of hidden units as the layers progress is pretty common.
 
 ![](./inference_2.png "Forward Prop")
+
+# TensorFlow implementation
+
+## Inference in code
+
+- Consider an example when trying to apply ML to coffee roasting. You have two params that you can control, temp and duration. 
+  - Too high a temp or duration --> Overcooked
+  - Too low a temp or duration --> Undercooked
+
+- Can we build a model that takes as input temp and duration and predicts whether or not the coffee is good (1) or bad (0)?
+
+![](coffee_1.png "Coffee roasting")
+
+- Create Dense layers
+  - units: number of hidden units
+  - activation: activation function
+
+- First layer takes the input vector, second layer takes the activations from layer 1, etc.
+
+![](coffee_2.png "Build the model using TensorFlow")
+
+## Data in TensorFlow
+
+- Notes on matrices and numpy arrays
+- Ex. A 2x3 matrix (2 rows, 3 cols) can be represented like below. 
+
+```
+x = np.array([[1, 2, 3],
+              [4, 5, 6]])
+```
+
+- The above is used in the lectures, I kind of prefer this below notation.
+
+```
+x = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+```
+
+### Representing Vectors
+
+#### Row Vectors
+
+```
+x = np.array([
+    [200, 17]
+])
+```
+
+#### Column Vectors
+
+```
+x = np.array([
+    [200],
+    [17]
+])
+```
+
+#### 1D Vectors (linear lists)
+
+```
+x = np.array([200,17])
+```
+
+### Back to Forward Prop / Inference
+
+- Getting the activations from layer 1 on x we get a Tensor as output
+- To convert to a numpy array we have the `numpy()` function.
+
+![](coffee_3.png "Activation vector")
+![](coffee_4.png "Activation vector Pt. 2")
+
+## Building a neural network
+
+- So what we were doing before was manually stringing together the layers. Getting the activations from the previous layer and putting it as the input for the next etc etc.
+- But tensorflow actually has a way to do this automatically.
+- Using the `Sequential()` model, what we're doing is telling tensorflow to string together the layers that we're giving it.
+
+![](./building_nn_1.png "Building a NN in TensorFlow")
+
+- Note the `predict()` function carries out forward prop, and we'll learn about the `compile()` and `fit()` functions later on.
