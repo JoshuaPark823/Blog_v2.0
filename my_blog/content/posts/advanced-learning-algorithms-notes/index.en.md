@@ -110,3 +110,17 @@ Below are some rough notes from Stanford Online's Advanced Learning Algorithms c
 
 ![](./complex_network_1.png "Example network with 4 layers")
 ![](./complex_network_2.png "Example network with 4 layers")
+
+## Inference: Making predictions (Forward propagation)
+
+- Suppose 255 denotes a bright pixel, 0 denotes a dark pixel
+
+- If you had an output layer with 1 neuron that had the job of predicting whether or not the digit is a 1 or a 0, this is what it could look like:
+
+
+![](./inference_0.png "Handwritten digit recognition")
+![](./inference_1.png "Handwritten digit recognition")
+
+- Note: Choosing a NN architecture where you have a decreasing number of hidden units as the layers progress is pretty common.
+
+![](./inference_2.png "Forward Prop")
