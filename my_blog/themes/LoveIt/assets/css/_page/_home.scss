@@ -4,39 +4,6 @@
     padding: 0 0 .5rem;
     text-align: center;
 
-    .home-avatar {
-      padding: .5rem;
-
-      img {
-        display: inline-block;
-        width: 8rem;
-        height: auto;
-        margin: 0 auto;
-        @include border-radius(100%);
-        @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, .05));
-        @include transition(all 0.4s ease);
-
-        &:hover {
-          position: relative;
-          @include transform(translateY(-.75rem));
-        }
-      }
-    }
-
-    .home-title {
-      font-size: 1.25rem;
-      font-weight: 500;
-      margin: 0;
-      padding: .5rem;
-    }
-
-    .home-subtitle {
-      font-size: 1rem;
-      font-weight: normal;
-      margin: 0;
-      padding: .5rem;
-    }
-
     .links {
       padding: .5rem;
       font-size: 1.5rem;
@@ -64,6 +31,40 @@
       }
     }
   }
+
+  .custom-intro {
+    height: 67.5vh;
+    padding-top: 17.5%;
+
+    &-header {
+        font-size: 36px;
+        font-weight: 600 !important;
+    }
+
+    &-subheader {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .custom-desc {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 2.5rem;
+    }
+  }
+
+  .custom-post-header {
+    border-bottom: 1px solid $global-border-color;
+
+    [theme=dark] & {
+        border-bottom: 1px solid $global-border-color-dark !important;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+  }
 }
 
 .home[data-home=posts] {
@@ -89,11 +90,11 @@
 
     .featured-image-preview {
       width: 100%;
-      padding: 50% 0 0;
+      padding: 45% 0 0;
       position: relative;
       margin: 0.6rem auto;
       @include transition(transform 0.4s ease);
-      border: 1px solid $global-border-color;
+    //   border: 1px solid $global-border-color;
       background-color: #fff;
 
       img {
@@ -111,7 +112,7 @@
     }
 
     .single-title {
-      font-size: 2.5rem;
+      font-size: 28px;
       font-weight: 500;
       line-height: 1.25;
       margin: 0.4rem 0;

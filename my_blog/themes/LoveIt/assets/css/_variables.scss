@@ -22,15 +22,15 @@ $global-background-color-dark: #1a202c !default;
 
 // Color of the text
 // $global-font-color: #515151 !default;
-$global-font-color: #515151 !default;
+$global-font-color: #2d3748 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
+$global-font-secondary-color: #5f6c80 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
-$global-link-color: #515151 !default;
+$global-link-color: #2d3748 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
@@ -38,7 +38,7 @@ $global-link-hover-color: #2d96bd !default;
 $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
-$global-border-color: #f0f0f0 !default;
+$global-border-color: #cbd5e0 !default;
 $global-border-color-dark: #363636 !default;
 // ========== Global ========== //
 
@@ -71,7 +71,7 @@ $header-background-color: #fff !default;
 $header-background-color-dark: #1a202c !default;
 
 // Color of the hover header item
-$header-hover-color: #515151 !default;
+$header-hover-color: #2d3748 !default;
 $header-hover-color-dark: #fff !default;
 
 // Color of the search background

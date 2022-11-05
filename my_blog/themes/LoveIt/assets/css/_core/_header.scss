@@ -34,6 +34,11 @@ header {
   box-sizing: border-box;
   width: 100%;
   max-width: 800px;
+  border-bottom: 1px solid $global-border-color;
+
+  [theme=dark] & {
+    border-bottom: 1px solid $global-border-color-dark !important;
+  }
 }
 
 .header-title {
@@ -193,7 +198,7 @@ header {
       }
 
       a.active {
-        font-weight: 900;
+        font-weight: 600;
         color: $header-hover-color;
 
         [theme=dark] & {
