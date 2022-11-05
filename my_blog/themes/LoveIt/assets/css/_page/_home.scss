@@ -90,11 +90,11 @@
 
     .featured-image-preview {
       width: 100%;
-      padding: 50% 0 0;
+      padding: 45% 0 0;
       position: relative;
       margin: 0.6rem auto;
       @include transition(transform 0.4s ease);
-      border: 1px solid $global-border-color;
+    //   border: 1px solid $global-border-color;
       background-color: #fff;
 
       img {
@@ -112,7 +112,7 @@
     }
 
     .single-title {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 500;
       line-height: 1.25;
       margin: 0.4rem 0;
