@@ -57,14 +57,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Tags"
     url = "tags/"
     title = ""
-#   [[menu.main]]
-#     weight = 3
-#     identifier = "categories"
-#     pre = ""
-#     post = ""
-#     name = "Categories"
-#     url = "categories/"
-#     title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "contact"
+    pre = ""
+    post = ""
+    name = "Contact"
+    url = "contact/"
+    title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -182,7 +182,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = false
+      enable = true
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
