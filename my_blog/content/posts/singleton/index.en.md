@@ -24,7 +24,7 @@ When building robust software, sometimes it may be necessary (and cleanest) to o
 - Dealer 1: "Hey, I want to give Player 1 a card, have you given him one yet?"
 - Dealer 2: "No, go ahead please let me go home we don't need two people here."
 
-Not only would a game like this run unbelievably slowly, but there could be a number of bugs and race conditions that arise if even one dealer miscommunicates, doesn't act in time, or performs some operation without the dealer knowing.
+Not only would a game like this run unbelievably slowly, but there could be a number of bugs and race conditions that arise if even one dealer miscommunicates, doesn't act in time, or performs some operation without the other dealer knowing.
 
 # The Singleton
 
@@ -34,7 +34,7 @@ Below is the class diagram that shows the basic flow of a naive implementation.
 
 <br>
 
-![The Singleton](class-diagram-flat.png "The Singleton - Class Diagram")
+![The Singleton](class-diagram-flat.png "The Singleton - Class Diagram (Original)")
 
 I'll denote the caller as the `Client` to represent an arbitrary client's request for a Singleton instance. The Singleton class has a static member `_instance` that holds the reference to the Singleton, a private constructor to ensure no external creation of another Singleton (ie. Dealer 2), and a public method that returns the Singleton `_instance`.
 
