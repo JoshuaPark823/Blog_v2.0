@@ -6,7 +6,7 @@ tags: [
     'Software Design',
     'Design Patterns',
     '.NET',
-    'C#'
+    'C Sharp'
 ]
 resources:
 - name: "featured-image-preview"
