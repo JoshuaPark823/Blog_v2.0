@@ -5,7 +5,7 @@ draft: false
 tags: [
     'Software Design',
     'Design Patterns',
-    '.NET',
+    'Dotnet',
     'C Sharp'
 ]
 resources:
