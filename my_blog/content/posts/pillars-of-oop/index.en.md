@@ -6,6 +6,9 @@ tags: [
     'Software Design',
     'Object-Oriented Programming (OOP)'
 ]
+resources:
+- name: "featured-image-preview"
+  src: "banner-2.png"
 ---
 
 # Introduction
@@ -56,4 +59,7 @@ Suppose you have a base class `Cat` that defines the methods `meow()` and `eat()
 # References
 
 * Robillard, M. P. (2019). Introduction to software design with Java. Springer International Publishing. 
+* Martin, R. C., Feathers, M. C., Ottinger, T. R., &amp; Langr, J. J. (2016). Clean code A handbook of agile software craftsmanship. Pearson Education, Inc. 
+
+Image Credit:
 * Martin, R. C., Feathers, M. C., Ottinger, T. R., &amp; Langr, J. J. (2016). Clean code A handbook of agile software craftsmanship. Pearson Education, Inc. 
